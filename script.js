@@ -14,7 +14,7 @@ document.getElementById("button").addEventListener("click", () => {
     setInterval(() => {
         const hahaha = document.createElement("div");
         hahaha.classList.add("hahaha");
-        hahaha.textContent = "hahaha";
+        hahaha.textContent = "ha ha ha 🤣";
         hahaha.style.left = Math.random() * 100 + "vw";
         hahaha.style.animationDuration = Math.random() * 2 + 3 + "s";
         animation.appendChild(hahaha);
