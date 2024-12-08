@@ -1,6 +1,10 @@
 document.getElementById("button").addEventListener("click", () => {
     const animation = document.getElementById("animation");
     const trickText = document.getElementById("trick-text");
+    const audio = document.getElementById("audio");
+
+    // Phát âm thanh
+    audio.play();
 
     // Hiện dòng chữ với hiệu ứng
     trickText.style.opacity = 1;
@@ -10,7 +14,7 @@ document.getElementById("button").addEventListener("click", () => {
     setInterval(() => {
         const hahaha = document.createElement("div");
         hahaha.classList.add("hahaha");
-        hahaha.textContent = "ha ha ha🤣";
+        hahaha.textContent = "hahaha";
         hahaha.style.left = Math.random() * 100 + "vw";
         hahaha.style.animationDuration = Math.random() * 2 + 3 + "s";
         animation.appendChild(hahaha);
